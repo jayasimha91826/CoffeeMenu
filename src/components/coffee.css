@@ -1,0 +1,163 @@
+.Maincontainer{
+    background-image: url("../images/bg-cafe.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    background-color: #111315;
+    padding-top: 6.6rem;
+    padding-bottom: 22rem;
+    
+}
+.Iteamscontainer{
+    background-color: #1B1D1F;
+    height: 100vh;
+    width: 74.5vw;
+    margin-left: 6.2rem;
+    margin-top: 4rem;
+    border-radius: 8px;
+    padding: 5rem;
+    padding-bottom:8rem ;
+}
+.collection{
+    color: #FEF7EE;
+    text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 2rem;
+
+}
+.intro{
+  color: #6F757C;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  margin-top: -10px;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+
+}
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.all:hover{
+    cursor: pointer;
+}
+.all{
+    background-color:#1B1D1F ;
+    border: 0px;
+    margin-left: 1.5rem;
+    height: 2rem;
+    color: #FEF7EE;
+    border-radius: 6px;
+}
+.all.active{
+    background-color:#6F757C ;
+}
+.listcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.listitem{
+    height: 14rem;
+    width: 18rem;
+    color: white;
+    background-color:#1B1D1F;
+    margin: 12px;
+    border-radius: 1rem;
+    position: relative;
+    display: inline-block;
+}
+.imag{
+    height: 8rem;
+    width: 18rem;
+    border-radius: 1rem;
+    display: block;
+}
+.popular{
+    background-color: #F6C768;
+    font-size: 12px;
+    width: 4rem;
+    height: 1.3rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    position: absolute;
+    padding-top: 6px;
+    top: 0;
+    left: 6px;
+    color: #111315;
+}
+.pricetag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price{
+    background-color: #BEE3CC;
+    width: 3rem;
+    height: 20px;
+    margin-top: 1rem;
+    margin-bottom: 8px;
+    text-align: center;
+    /* font-family: "DM Sans", sans-serif; */
+    border-radius: 4px;
+    color: #111315;
+    font-size: 12px;
+}
+.ratingcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.rating{
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* font-family: "DM Sans", sans-serif; */
+    /* color: #111315; */
+}
+.ratingVotes{
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #6F757C;
+
+}
+.columnn{
+    display: flex;
+    flex-direction: column;   
+}
+.star{
+    position: relative;
+    top: -1px;
+}
+.coffeename{
+    /* margin: 4px 0px 0px 0px; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "DM Sans", sans-serif;
+
+}
+.soldout{
+    color: #ED735D;
+    position: absolute;
+    bottom: 16px;
+    right: 6px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: ;
+
+}
+.soldoutcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
