@@ -1,15 +1,16 @@
-.Maincontainer{
+/* Base styles (desktop) */
+.Maincontainer {
     background-image: url("../images/bg-cafe.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
     width: 100vw;
     background-color: #111315;
     padding-top: 6.6rem;
     padding-bottom: 22rem;
-    
 }
-.Iteamscontainer{
+
+.Iteamscontainer {
     background-color: #1B1D1F;
     height: 100vh;
     width: 74.5vw;
@@ -17,72 +18,79 @@
     margin-top: 4rem;
     border-radius: 8px;
     padding: 5rem;
-    padding-bottom:8rem ;
+    padding-bottom: 8rem;
 }
-.collection{
+
+.collection {
     color: #FEF7EE;
     text-align: center;
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 2rem;
-
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2rem;
 }
-.intro{
-  color: #6F757C;
-  text-align: center;
-  font-family: "DM Sans", sans-serif;
-  margin-top: -10px;
-  font-style: normal;
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 24px;
 
+.intro {
+    color: #6F757C;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin-top: -10px;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 24px;
 }
-.buttoncontainer{
+
+.buttoncontainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 2rem;
 }
-.all:hover{
+
+.all:hover {
     cursor: pointer;
 }
-.all{
-    background-color:#1B1D1F ;
+
+.all {
+    background-color: #1B1D1F;
     border: 0px;
     margin-left: 1.5rem;
     height: 2rem;
     color: #FEF7EE;
     border-radius: 6px;
 }
-.all.active{
-    background-color:#6F757C ;
+
+.all.active {
+    background-color: #6F757C;
 }
-.listcontainer{
+
+.listcontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-   
 }
-.listitem{
+
+.listitem {
     height: 14rem;
     width: 18rem;
     color: white;
-    background-color:#1B1D1F;
+    background-color: #1B1D1F;
     margin: 12px;
     border-radius: 1rem;
     position: relative;
     display: inline-block;
 }
-.imag{
+
+.imag {
     height: 8rem;
     width: 18rem;
     border-radius: 1rem;
     display: block;
 }
-.popular{
+
+.popular {
     background-color: #F6C768;
     font-size: 12px;
     width: 4rem;
@@ -96,68 +104,147 @@
     left: 6px;
     color: #111315;
 }
-.pricetag{
+
+.pricetag {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.price{
+
+.price {
     background-color: #BEE3CC;
     width: 3rem;
     height: 20px;
     margin-top: 1rem;
     margin-bottom: 8px;
     text-align: center;
-    /* font-family: "DM Sans", sans-serif; */
     border-radius: 4px;
     color: #111315;
     font-size: 12px;
 }
-.ratingcontainer{
+
+.ratingcontainer {
     display: flex;
     flex-direction: row;
 }
-.rating{
+
+.rating {
     margin-left: 4px;
     margin-top: 0px;
     margin-bottom: 0px;
-    /* font-family: "DM Sans", sans-serif; */
-    /* color: #111315; */
 }
-.ratingVotes{
+
+.ratingVotes {
     margin-left: 4px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #6F757C;
+}
 
-}
-.columnn{
+.columnn {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
 }
-.star{
+
+.star {
     position: relative;
     top: -1px;
 }
-.coffeename{
-    /* margin: 4px 0px 0px 0px; */
+
+.coffeename {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-family: "DM Sans", sans-serif;
-
 }
-.soldout{
+
+.soldout {
     color: #ED735D;
     position: absolute;
     bottom: 16px;
     right: 6px;
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
-    font-weight: ;
-
 }
-.soldoutcontainer{
+
+.soldoutcontainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .Iteamscontainer {
+        height: auto;
+        width: 90vw;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        padding: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .listitem {
+        height: 12rem;
+        width: 16rem;
+        margin: 8px;
+    }
+
+    .imag {
+        height: 7rem;
+        width: 16rem;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .Maincontainer {
+        height: auto;
+        width: 100vw;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .Iteamscontainer {
+        height: auto;
+        width: 90vw;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .collection {
+        font-size: 1.5rem;
+    }
+
+    .intro {
+        font-size: 0.875rem;
+    }
+
+    .buttoncontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+
+    .listcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listitem {
+        height: 10rem;
+        width: 90%;
+        margin: 8px 0;
+    }
+
+    .imag {
+        height: 6rem;
+        width: 100%;
+    }
 }
