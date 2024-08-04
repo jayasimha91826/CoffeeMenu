@@ -176,8 +176,8 @@
 @media (max-width: 1024px) {
     .Iteamscontainer {
         height: auto;
-        width: 90vw;
-        margin-left: 2rem;
+        width: 68vw;
+        margin-left: 5.5rem;
         margin-top: 2rem;
         padding: 2rem;
         padding-bottom: 4rem;
@@ -188,10 +188,14 @@
         width: 16rem;
         margin: 8px;
     }
+    .popular{
+        left: 2rem;
+    }
 
     .imag {
         height: 7rem;
         width: 16rem;
+        margin-left: 1rem;
     }
 }
 
