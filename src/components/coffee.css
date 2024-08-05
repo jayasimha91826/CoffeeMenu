@@ -176,8 +176,8 @@
 @media (max-width: 1024px) {
     .Iteamscontainer {
         height: auto;
-        width: 68vw;
-        margin-left: 5.5rem;
+        width: 58vw;
+        margin-left: 10rem;
         margin-top: 2rem;
         padding: 2rem;
         padding-bottom: 4rem;
@@ -211,7 +211,7 @@
     .Iteamscontainer {
         height: auto;
         width: 80vw;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         margin-top: 2rem;
         padding: 1rem;
         padding-bottom: 2rem;
@@ -235,10 +235,15 @@
         margin-bottom: 1rem;
         width: 90%;
     }
-
+    .soldoutcontainer{
+        margin-left: -20px;
+    }
     .listcontainer {
         flex-direction: column;
         align-items: center;
+    }
+    .ratingVotes{
+        width: 8rem;
     }
 
     .listitem {
@@ -250,5 +255,17 @@
     .imag {
         height: 6rem;
         width: 100%;
+        margin-left: 0px;
+    }
+    .soldout{
+        position: relative;
+        margin-top: 0px;
+        bottom: -0.5rem;
+    }
+    .pricetag{
+        /* margin-left: 1rem; */
+    }
+    .ratingcontainer{
+        margin-left: 1rem;
     }
 }
